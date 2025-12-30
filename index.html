@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureServe | Restaurant Water Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/water-bottle.png">
+</head>
+<body>
+    <!-- Navigation Overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-main">PureServe</div>
+                    <div class="logo-tagline">Restaurant Water Solutions</div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                        <li><a href="#services" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                        <li><a href="#process" class="nav-link"><i class="fas fa-cogs"></i> Process</a></li>
+                        <li><a href="#benefits" class="nav-link"><i class="fas fa-star"></i> Benefits</a></li>
+                        <li><a href="#portfolio" class="nav-link"><i class="fas fa-images"></i> Portfolio</a></li>
+                        <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="nav-cta">
+                    <i class="fas fa-bottle-water"></i> Request Sample
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-header">
+                <div class="mobile-logo">
+                    <h3>PureServe</h3>
+                    <p>Restaurant Water Solutions</p>
+                </div>
+            </div>
+            <ul class="mobile-nav-menu">
+                <li><a href="#home" class="mobile-nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="mobile-nav-link"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#services" class="mobile-nav-link"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                <li><a href="#process" class="mobile-nav-link"><i class="fas fa-cogs"></i> How It Works</a></li>
+                <li><a href="#benefits" class="mobile-nav-link"><i class="fas fa-star"></i> Why Choose Us</a></li>
+                <li><a href="#portfolio" class="mobile-nav-link"><i class="fas fa-images"></i> Portfolio</a></li>
+                <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-cta">
+                <a href="#contact" class="btn btn-primary btn-block">
+                    <i class="fas fa-bottle-water"></i> Request Free Sample
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Branded Water Bottles for Restaurants</h1>
+                    <h2 class="hero-subtitle">Serve Your Brand, Not Generic Bottles</h2>
+                    <p class="hero-description">
+                        PureServe provides custom branded water bottle solutions exclusively for restaurants. 
+                        We partner with local water plants to deliver fast, reliable, and professional branded water supply.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large">
+                            <i class="fas fa-gift"></i> Get Free Sample
+                        </a>
+                        <a href="#process" class="btn btn-secondary btn-large">
+                            <i class="fas fa-play-circle"></i> See How It Works
+                        </a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-truck-fast"></i>
+                            <span>Fast Local Delivery</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Custom Branding</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="water-bottle-display">
+                        <div class="bottle">
+                            <div class="bottle-label">
+                                <div class="restaurant-name">Your Restaurant</div>
+                                <div class="restaurant-type">Fine Dining</div>
+                                <div class="qr-code">
+                                    <i class="fas fa-qrcode"></i>
+                                </div>
+                                <div class="water-type">PureServe Premium Water</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About PureServe</h2>
+                <p class="section-subtitle">Professional Water Solutions for Restaurants</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-water"></i>
+                        <p>PureServe Branded Water</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Transforming Restaurant Water Service</h3>
+                    <p>
+                        PureServe was founded to solve a common problem in the restaurant industry: 
+                        <strong>generic water bottles that do nothing for branding or customer trust</strong>.
+                    </p>
+                    <p>
+                        We identified a significant gap in local markets where restaurants serve bottled water 
+                        without any brand identity. Our mission is to turn this everyday item into a powerful 
+                        branding tool that enhances customer experience and builds trust.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-text">Restaurants Served</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24h</div>
+                            <div class="stat-text">Fast Delivery</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-text">Custom Branding</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Complete Water Solutions for Your Restaurant</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Branded Water Bottles</h3>
+                    <p>Custom water bottles featuring your restaurant's name, logo, and brand colors.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Logo & Design</li>
+                        <li><i class="fas fa-check"></i> Multiple Size Options</li>
+                        <li><i class="fas fa-check"></i> Premium Quality Bottles</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>Smart Label Design</h3>
+                    <p>Professional labels with QR codes linking to your menu, website, or promotions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> QR Code Integration</li>
+                        <li><i class="fas fa-check"></i> Custom Information</li>
+                        <li><i class="fas fa-check"></i> Premium Paper Quality</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Local Water Supply</h3>
+                    <p>Sourced from nearby purification plants for freshness and fast delivery.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Local Sourcing</li>
+                        <li><i class="fas fa-check"></i> Regular Quality Checks</li>
+                        <li><i class="fas fa-check"></i> Fresh Daily Supply</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Flexible Delivery</h3>
+                    <p>On-demand supply with flexible scheduling to match your restaurant's needs.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Scheduled Deliveries</li>
+                        <li><i class="fas fa-check"></i> Emergency Orders</li>
+                        <li><i class="fas fa-check"></i> Contactless Delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple 4-Step Process to Get Your Branded Water</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Share Your Brand</h3>
+                        <p>Send us your restaurant name, logo, and branding preferences.</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Design Approval</h3>
+                        <p>We create custom label designs and send for your approval.</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Production</h3>
+                        <p>Local water plant fills bottles and applies your custom labels.</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Delivery</h3>
+                        <p>Fast local delivery to your restaurant at scheduled time.</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="process-cta">
+                <h3>Ready to Get Started?</h3>
+                <p>Join 100+ restaurants already using PureServe branded water.</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <i class="fas fa-rocket"></i> Start Your Order
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Restaurants Choose PureServe</h2>
+                <p class="section-subtitle">The Advantages of Our Branded Water Solution</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Brand Visibility</h3>
+                    <p>Every bottle serves as a mobile advertisement for your restaurant.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Customer Trust</h3>
+                    <p>Branded bottles signal professionalism and build customer confidence.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Cost Effective</h3>
+                    <p>Competitive pricing with bulk discounts for regular orders.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Local Supply</h3>
+                    <p>Nearby water plants ensure quick delivery without delays.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Zero Headache</h3>
+                    <p>We handle everything from design to delivery. You focus on your restaurant.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Recyclable materials and responsible water sourcing practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio & Samples</h2>
+                <p class="section-subtitle">See Our Custom Label Designs for Restaurants</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="sample-bottle">
+                            <div class="bottle-top"></div>
+                            <div class="bottle-body">
+                                <div class="sample-label label-1">
+                                    <div class="label-title">Italian Bistro</div>
+                                    <div class="label-sub">Authentic Italian Cuisine</div>
+                                    <div class="label-qr">
+                                        <i class="fas fa-qrcode"></i>
+                                    </div>
+                                    <div class="label-footer">PureServe Water</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Italian Restaurant Design</h3>
+                        <p>Elegant design with classic typography for fine dining.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="sample-bottle">
+                            <div class="bottle-top"></div>
+                            <div class="bottle-body">
+                                <div class="sample-label label-2">
+                                    <div class="label-title">Seafood Grill</div>
+                                    <div class="label-sub">Fresh Ocean Cuisine</div>
+                                    <div class="label-qr">
+                                        <i class="fas fa-qrcode"></i>
+                                    </div>
+                                    <div class="label-footer">PureServe Water</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Seafood Restaurant</h3>
+                        <p>Modern design with ocean-themed colors and elements.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="sample-bottle">
+                            <div class="bottle-top"></div>
+                            <div class="bottle-body">
+                                <div class="sample-label label-3">
+                                    <div class="label-title">Urban Cafe</div>
+                                    <div class="label-sub">Coffee & Contemporary Food</div>
+                                    <div class="label-qr">
+                                        <i class="fas fa-qrcode"></i>
+                                    </div>
+                                    <div class="label-footer">PureServe Water</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Cafe & Bistro Style</h3>
+                        <p>Minimalist design perfect for modern cafes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get Your Free Sample Today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Start Your Branded Water Journey</h3>
+                    <p>Fill out the form and we'll contact you within 24 hours with samples and pricing.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@pureserve.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Mon-Fri: 8AM-6PM</p>
+                                <p>Saturday: 9AM-2PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta">
+                        <a href="tel:+15551234567" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Restaurant">
+                            </div>
+                            <div class="form-group">
+                                <label for="restaurant">Restaurant Name *</label>
+                                <input type="text" id="restaurant" name="restaurant" required placeholder="Your Restaurant Name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@restaurant.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Requirements</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your restaurant and water needs..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">I'm Interested In:</label>
+                            <select id="service" name="service">
+                                <option value="sample">Free Sample</option>
+                                <option value="trial">Trial Order</option>
+                                <option value="regular">Regular Supply</option>
+                                <option value="quote">Custom Quote</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Request
+                        </button>
+                        
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Thank You!</h4>
+                                <p>We'll contact you within 24 hours with your free sample details.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <h2>PureServe</h2>
+                        <p>Restaurant Water Solutions</p>
+                    </div>
+                    <p class="footer-motto">Serving Restaurants with Purity and Branding</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#services">Branded Water Bottles</a></li>
+                            <li><a href="#services">Label Design</a></li>
+                            <li><a href="#services">Local Supply</a></li>
+                            <li><a href="#services">Delivery Service</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#process">How It Works</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="tel:+15551234567">0330 4162277</a></li>
+                            <li><a href="tel:+15551234567">0322 4173281</a></li>
+                            <li><a href="mailto:binrashidpureserve@gmail.com?subject=PureServe%20Restaurant%20Water%20Inquiry
+
+">binrashidpureserve@gmail.com</a></li>
+                            <li>Local Delivery Areas</li>
+                            <li>Fast Restaurant Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> PureServe Restaurant Water Solutions. All rights reserved.</p>
+                <p>Designed exclusively for restaurant branding and water solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
